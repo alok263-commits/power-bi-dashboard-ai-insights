@@ -29,3 +29,18 @@ To run this application locally on your machine, follow these steps:
 ```bash
 git clone [https://github.com/alok263-commits/power-bi-dashboard-ai-insights.git](https://github.com/yourusername/power-bi-dashboard-ai-insights.git)
 cd power-bi-dashboard-ai-insights
+
+2. Install dependencies
+Ensure you have Python 3.11+ installed. Install the required packages:
+
+Bash
+pip install streamlit pandas altair google-generativeai python-dotenv
+3. Configure your Environment Variables
+Create a .env file in the root directory and securely add your Gemini API key:
+
+Plaintext
+GEMINI_API_KEY="your_api_key_here"
+4. Launch the application
+
+Bash
+streamlit run app.py
